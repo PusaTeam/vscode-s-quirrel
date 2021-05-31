@@ -102,9 +102,9 @@
   },
 
   "robj_dtext": {
-    "prefix": "rend",
-    "body": "rendObj",
-    "description": "rendObj"
+    "prefix": "dtext",
+    "body": "ROBJ_DTEXT",
+    "description": "ROBJ_DTEXT"
   },
 
   "robj_stext": {
@@ -117,6 +117,12 @@
     "prefix": "box",
     "body": "ROBJ_BOX",
     "description": "ROBJ_BOX"
+  },
+
+  "robj_textArea": {
+    "prefix": "tarea",
+    "body": "ROBJ_TEXTAREA",
+    "description": "ROBJ_TEXTAREA"
   },
 
   "align_center": {
@@ -143,6 +149,12 @@
     "description": "ALIGN_LEFT"
   },
 
+  "allign_top": {
+    "prefix": "at",
+    "body": "ALIGN_TOP",
+    "description": "ALIGN_TOP"
+  },
+
   "skipDirPadNav": {
     "prefix": "skip",
     "body": "skipDirPadNav",
@@ -163,13 +175,13 @@
 
   "children": {
     "prefix": "ch",
-    "body": "children",
+    "body": "children = ${0}",
     "description": "children"
   },
 
   "behavior": {
     "prefix": "bh",
-    "body": "behavior",
+    "body": "behavior = ${0}",
     "description": "behavior"
   },
 
@@ -231,5 +243,23 @@
     "prefix": "fc",
     "body": "fillColor = ${0}",
     "description": "fillColor"
+  },
+
+  "dlog": {
+    "prefix": "dlog",
+    "body": "dlog(${0})",
+    "description": "dlog"
+  },
+
+  "wdlog": {
+    "prefix": "wdlog",
+    "body": "wdlog(${0})",
+    "description": "wdlog"
+  },
+
+  "size_to_content": {
+    "prefix": ["stc", "size_to", "size_to_content"],
+    "body": "SIZE_TO_CONTENT",
+    "description": "SIZE_TO_CONTENT"
   }
 }
